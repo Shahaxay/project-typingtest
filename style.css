@@ -1,0 +1,43 @@
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+}
+body{
+    background-color: aqua;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+textarea{
+    color:white;
+    background-color: black;
+    font-size: 1rem;
+    border-radius:0 .7rem;
+    padding: .3rem;
+}
+button{
+    padding:.5rem 1rem;
+    font-size: 1.5rem;
+}
+@media screen and (min-width:600px){
+    html{
+        font-size: 120%;
+    }
+}
+@media screen and (min-width:768px){
+    html{
+        font-size: 140%;
+    }
+}
+@media screen and (min-width:992px){
+    html{
+        font-size: 160%;
+    }
+}
+@media screen and (min-width:1200px){
+    html{
+        font-size: 180%;
+    }
+}
